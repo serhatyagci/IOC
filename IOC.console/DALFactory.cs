@@ -8,9 +8,9 @@ namespace IOC.console
 {
     public class DALFactory
     {
-        public static DALFactory GetDal()
+        public static DataAccessLayer GetDal()
         {
-            return new DALFactory();
+            return new DataAccessLayer();
         }
     }
 }
