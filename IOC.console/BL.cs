@@ -11,7 +11,7 @@ namespace IOC.console
         private DataAccessLayer _dal { get; set; }
         public BL()
         {
-            _dal= new DataAccessLayer();
+            _dal= DALFactory.GetDal();
         }
         public List<Product> GetProducts()
         {
