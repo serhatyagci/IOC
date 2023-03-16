@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IOC.console
 {
-    public class DataAccessLayer
+    public class DataAccessLayer :IDataAccessLayer
     {
         public List<Product> GetProducts()
         {

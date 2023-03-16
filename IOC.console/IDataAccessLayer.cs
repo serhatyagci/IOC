@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace IOC.console
 {
-    public class DALFactory
+    public interface IDataAccessLayer
     {
-        public static IDataAccessLayer GetDal()
-        {
-            return new DataAccessLayer();
-        }
+        List<Product> GetProducts();
     }
 }

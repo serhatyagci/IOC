@@ -8,7 +8,7 @@ namespace IOC.console
 {
     public class BL
     {
-        private DataAccessLayer _dal { get; set; }
+        private IDataAccessLayer _dal { get; set; }
         public BL()
         {
             _dal= DALFactory.GetDal();
