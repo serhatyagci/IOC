@@ -10,7 +10,7 @@ namespace IOC.console
     {
         static void Main(string[] args)
         {
-            BL bl = new BL();
+            BL bl = new BL(new OracleDataAccessLayer());
 
             bl.GetProducts().ForEach(x=> 
             {

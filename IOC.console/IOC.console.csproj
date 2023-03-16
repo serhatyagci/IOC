@@ -47,6 +47,7 @@
     <Compile Include="DALFactory.cs" />
     <Compile Include="DataAccessLayer.cs" />
     <Compile Include="IDataAccessLayer.cs" />
+    <Compile Include="OracleDataAccessLayer.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

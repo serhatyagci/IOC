@@ -9,9 +9,9 @@ namespace IOC.console
     public class BL
     {
         private IDataAccessLayer _dal { get; set; }
-        public BL()
+        public BL(IDataAccessLayer dal)
         {
-            _dal= DALFactory.GetDal();
+            _dal= dal;
         }
         public List<Product> GetProducts()
         {
